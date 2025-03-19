@@ -12,7 +12,7 @@ struct AI_Image_GeneratorApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                ContentView()
+                ImageDescriptionView()
             }
         }
     }
